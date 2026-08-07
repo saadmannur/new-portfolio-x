@@ -47,7 +47,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div>
+        <div className="hidden lg:block">
           <RubiksPuzzle></RubiksPuzzle>
         </div>
       </div>
