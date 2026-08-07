@@ -90,6 +90,11 @@ export default async function ProjectDetailPage({ params }) {
           <p className="mt-2 leading-relaxed text-muted-foreground">{project.improvements}</p>
         </section>
       </div>
+      <div className="flex justify-center items-center my-8">
+        <Link href="/#projects" className={btnClass("ghost", "default", "mb-3 pl-2")}>
+          <FiArrowLeft className="h-4 w-4" /> Back to projects
+        </Link>
+      </div>
     </main>
   );
 }
